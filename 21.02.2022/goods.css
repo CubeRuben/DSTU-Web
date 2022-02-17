@@ -1,0 +1,16 @@
+.goods_header {
+    display: flex;
+}
+
+.goods_header img {
+    border: 2px gray solid;
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px gray;
+}
+
+.goods_header div {
+    margin: 0 0 auto 50px;
+}
+

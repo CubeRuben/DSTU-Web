@@ -1,0 +1,24 @@
+
+.goods_list {
+    display: flex;
+}
+
+.goods_cell {
+    min-width: 200px;
+    height: 300px;
+    flex: 1;
+    border: 1px gray solid;
+    /*border-radius: 5px;*/
+    box-shadow: 0 0 10px 3px rgb(0, 0, 0);
+    margin: 30px;
+}
+
+.goods_cell h4 {
+    margin: 10px auto auto auto;
+    text-align: center;
+}
+
+h2 {
+    padding: 0px;
+    margin: auto 0 auto 20px;
+}
