@@ -1,21 +1,41 @@
 body {
     padding: 0;
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
 }
 
 .header {
-    min-height: 50px;
-    background-color: rgb(160, 60, 255);
+    min-height: 60px;
+    background-color: white;
+    color: white;
+    border-bottom: 2px rgb(194, 194, 194) solid;
+}
+
+.header h1 {
+    margin: 0;
+    padding: 20px 40px 20px 40px;
+    background-color: rgb(60, 167, 255);
+    display: inline-block;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
 }
 
 .content {
-    min-height: 70%;
+    min-height: 800px;
     max-width: 80%;
-    margin: 20px auto 20px auto;
+    margin: 0 auto 0 auto;
 }
 
 .footer {
-    min-height: 30px;
-    background-color: rgb(160, 60, 255);
+    min-height: 50px;
+    background-color: rgb(62, 162, 255);
+    border-top: 2px rgb(194, 194, 194) solid;
+}
+
+.footer h4 {
+    text-align: center;
 }

@@ -1,36 +1,69 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
 
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="base.css">
-        
-    </head>
-    <body>
-        <div class="header">
-            <h2>Интернет-магазин</h2>
-        </div>
-        <div class="content">
-            <div class="goods_list">
-                <a id="goods_cell">
-                    <div class="goods_cell">
-                        <img>
-                        <h4>Имя товара</h4>
-                    </div>
-                </a>
-                <div class="goods_cell">
+<head>
+    <title>Главная страница</title>
 
-                </div>
-                <div class="goods_cell">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="base.css">
 
-                </div>
-            </div>
-        </div>
-        <div class="footer">
-            
-        </div>
-    </body>
+</head>
 
-    <script src="index.css"></script>
+<body>
+    <div class="header">
+        <h1><a href="index.html">Интернет-магазин процессоров Intel</a></h1>
+    </div>
+
+    <div class="content">
+        <h2 class="goods_table_header">Список процессоров</h2>
+
+        <table class="goods_table">
+            <tr>
+                <td>Название процессора</td>
+                <td>Количество ядер</td>
+                <td>Количество потоков</td>
+                <td>Тактовая частота процессора</td>
+                <td>Цена</td>
+                <td>Есть в наличии</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="goods_pages/pentium.html">Процессор Intel Pentium G4560</a>
+                </td>
+                <td>2</td>
+                <td>4</td>
+                <td>3,50 ГГц</td>
+                <td>6 199,00 Р</td>
+                <td>Есть</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="goods_pages/celeron.html">Процессор Intel Celeron G6900</a>
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>3,40 ГГц</td>
+                <td>4 999,00 Р</td>
+                <td>Есть</td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="goods_pages/atom.html">Процессор Intel Atom C3338R</a>
+                </td>
+                <td>2</td>
+                <td>2</td>
+                <td>1,80 ГГц</td>
+                <td>3 499,00 Р</td>
+                <td>Нет</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <h4>Все права защищены</h2>
+    </div>
+</body>
+
+<script src="index.css"></script>
+
 </html>
