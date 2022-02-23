@@ -1,0 +1,22 @@
+.goods_table_header {
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.goods_table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.goods_table tr:first-child td {
+    background-color: rgb(192, 192, 192);
+    font-weight: 600;
+}
+
+.goods_table td {
+    border: 2px whitesmoke solid;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+}

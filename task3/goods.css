@@ -1,0 +1,34 @@
+.goods_name {
+    text-align: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.goods_header {
+    display: flex;
+    justify-content: center;
+}
+
+.goods_header h1 {
+    border: 2px gray solid;
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 5px gray;
+}
+
+.goods_header ul li {
+    padding: 5px;
+    border-bottom: 2px solid rgb(202, 202, 202);
+}
+
+.goods_header div {
+    margin: 0 0 auto 50px;
+}
+
+.goods_header img {
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border-right: 5px solid gray;
+}
