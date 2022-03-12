@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+    width: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.page-header {
+    background-color: rgb(127, 0, 212);
+    display: grid;
+    grid-template-columns: auto 160px;
+    padding: 30px 20px 70px 20px;
+    color: white;
+}
+
+.accent {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.quote {
+    margin: auto 0;
+    text-align: center;
+}
+
+.days-list {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 30px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    margin: 25px 20px 40px 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.day {
+    border: solid 2px rgb(184, 184, 184);
+    background-color: rgb(248, 248, 248);
+    border-radius: 20px;
+    padding: 10px;
+    width: 230px;
+}
+
+.page-footer {
+    display: block;
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+    background-color: rgb(127, 0, 212);
+    color: white;
+}
